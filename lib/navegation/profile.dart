@@ -48,7 +48,7 @@ class Profile extends StatelessWidget {
                 children: [
                   Icon(Icons.favorite),
                   Icon(Icons.chat_bubble_outline_outlined),
-                  Icon(Icons.ios_share_outlined),
+                  Icon(Icons.send),
                   Spacer(),
                   Icon(Icons.save_alt),
                 ],
@@ -65,6 +65,35 @@ class Profile extends StatelessWidget {
             const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text('Datos'),
+            ),
+            const Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Expanded(child: Text('data')),
+                  Expanded(child: Text('data')),
+                  Expanded(child: Text('data')),
+                ],
+              ),
+            ),
+            const Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Expanded(child: Text('data')),
+                Expanded(child: Text('data')),
+                Expanded(child: Text('data')),
+              ],
+            ),
+            const Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Expanded(child: Text('data')),
+                Expanded(child: Text('data')),
+                Expanded(child: Text('data')),
+                Expanded(child: Text('njrwgwjngrknnbvlkfdsnb vkdfbvmkdfbioaed oearmearkmnef erokmmdfmd ')),
+              ],
             ),
           ],
         
