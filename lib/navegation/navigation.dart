@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:learning1/navegation/home.dart';
-import 'package:learning1/navegation/pofile.dart';
+import 'package:learning1/navegation/profile.dart';
 import 'package:learning1/navegation/reservations.dart';
 import 'package:learning1/navegation/top.dart';
 
