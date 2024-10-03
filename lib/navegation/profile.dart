@@ -27,7 +27,10 @@ class Profile extends StatelessWidget {
                   ),
                   const SizedBox(width: 8.0,),
                   const Column(
-                    children: [Text('Nombre'), Text('Correo')],
+                    crossAxisAlignment: CrossAxisAlignment.start, // Añadido para alinear el texto
+                    children: [
+                      Text('Sheila Camila Sanchez Flores', style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),), 
+                      Text('Hace 10 minutos', style: TextStyle(fontSize: 12, color: Colors.black45, fontWeight: FontWeight.bold),)],
                   ),
                   const Spacer(),
                   const Icon(Icons.more_vert)
